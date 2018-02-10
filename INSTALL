@@ -1,0 +1,9 @@
+Building Florijncoin
+
+See doc/readme-qt.rst for instructions on building Florijncoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Florijncoin.
+
+See doc/build-*.txt for instructions on building florijncoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Florijncoin.
