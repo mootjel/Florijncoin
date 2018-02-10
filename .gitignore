@@ -1,0 +1,34 @@
+src/*.exe
+src/florijncoin
+src/florijncoind
+src/test_florijncoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.florijncoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+florijncoin-qt
+Florijncoin-Qt.app
+
+# Unit-tests
+Makefile.test
+florijncoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
